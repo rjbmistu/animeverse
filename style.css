@@ -109,7 +109,7 @@ nav ul li a{
 }
 /* feature */
 
-#feature{
+#characters{
     width: 100%;
     padding: 70px 0;
 }
@@ -149,6 +149,8 @@ nav ul li a{
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    /* border-style: outset;
+    border-color: #9D00FF; */
 }
 .features{
     flex-basis: 50%;
@@ -203,9 +205,9 @@ that is : https://youtu.be/8-VRIEaIKqI
     }
 }
 
-/* Service */
+/* Service/Top-List */
 
-#service{
+#toplist{
     width: 100%;
     padding: 70px 0;
     background: #efefef;
@@ -216,6 +218,46 @@ that is : https://youtu.be/8-VRIEaIKqI
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
+}
+.service-box a{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+.anime-one{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+.anime-two{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+.anime-three{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+.anime-four{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
 }
 .single-service{
     flex-basis: 48%;
@@ -272,6 +314,22 @@ hr{
         /* for some reason phone ko lai media query rakhda flex basis 100% rakhxa */
         margin-bottom: 30px;
     }
+    .anime-one{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .anime-two{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .anime-three{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .anime-four{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
     .service-desc p{
         font-size: 12px;
     }
@@ -283,9 +341,9 @@ hr{
     }
 }
 
-/* Testimonial */
+/* Testimonial/Quotes */
 
-#testimonial{
+#quotes{
     width: 100%;
     padding: 70px 0;
 }
@@ -371,7 +429,7 @@ hr{
 }
 .footer-img{
     max-width: 370px;
-    opacity: 0.1;
+    opacity: 0.5;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -407,5 +465,6 @@ hr{
     }
     .footer-img{
         top: 25%;
+        height: 21%;
     }
 }
